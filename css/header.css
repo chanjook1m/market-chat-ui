@@ -1,0 +1,41 @@
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #f8f8f8;
+  font-weight: bold;
+}
+
+.header-leftmenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-leftmenu__meta {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.header-leftmenu__meta--title {
+  font-size: 15px;
+}
+
+.header-leftmenu__meta--temperature {
+  border: 2px solid black;
+  padding: 0 5px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.header-leftmenu__meta--desc {
+  margin-top: 7px;
+  font-size: 12px;
+  color: gray;
+}
+
+.header-menu img {
+  width: 25px;
+  cursor: pointer;
+}

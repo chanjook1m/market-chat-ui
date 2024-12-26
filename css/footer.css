@@ -1,0 +1,32 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: #f8f8f8;
+}
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer-menu__icon--search {
+  color: lightgray;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #f8f8ff;
+  padding: 10px 15px;
+  width: 300px;
+  border-radius: 100px;
+}
+
+.footer-menu__icon--search div {
+  margin-right: 130px;
+}
+
+.footer-menu__icon img {
+  width: 25px;
+  cursor: pointer;
+}
